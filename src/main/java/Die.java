@@ -7,7 +7,7 @@ public class Die {
         sides = s;
 
     }
-    //metod att rulla tärning:
+    //metod att rulla tärning
     public void roll() {
         Random rollrand = new Random();
         value = rollrand.nextInt(sides)+1;
