@@ -8,7 +8,6 @@ pipeline {
         }
         stage('Build') {
             steps {
-                bat
                 bat "mvn compile"
             }
         }
